@@ -10,7 +10,7 @@ int main()
 
 	double a, b, h, y, s, p;
 	int n, i, x;
-	
+
 	cin >> a >> b >> n;
 	h = (b - a);
 	x = a;
@@ -23,11 +23,10 @@ int main()
 			s += p;
 		}
 		y = cos(x);
-		
+		cout « setw(15) « x « setw(15) « y « setw(15) « s « endl;
 		x += h;
-	} 
+	}
 	while (x <= b + h/2);
 	cout << endl;
 	return 0;
 }
-
